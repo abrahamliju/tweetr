@@ -7,6 +7,20 @@
   z-index: 1;
 }
 
+#nav-bar .loginbutton{
+  float: right;
+  margin-right: 26px;
+  margin-top: 27px;
+  width: 96px;
+  height: 34px;
+  border-radius: 4px;
+}
+
+#nav-bar .loginInfo{
+  display: table-caption;
+  float: right;;
+}
+
 #nav-bar .header{
   font-family:'Roboto', sans-serif;
   color: #e8fdff;
