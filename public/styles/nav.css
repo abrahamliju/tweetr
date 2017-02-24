@@ -1,0 +1,30 @@
+#nav-bar {
+  background-color: #00a087;
+  padding: 0px 12px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 1;
+}
+
+#nav-bar .header{
+  font-family:'Roboto', sans-serif;
+  color: #e8fdff;
+  font-size: 35px;
+  position: relative;
+  bottom: 28px;
+}
+
+#nav-bar .logo{
+  width: 80px;
+  height: 80px;
+}
+
+#nav-bar .composebutton{
+  float: right;
+  margin-top: 27px;
+  width: 96px;
+  height: 34px;
+  border-radius: 4px;
+  cursor: pointer;
+}

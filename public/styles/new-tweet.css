@@ -1,0 +1,55 @@
+.new-tweet{
+  border: 1px solid black;
+  background-color: #e4eceb;
+  height: 186px;
+  border-radius: 10px;
+}
+
+.new-tweet h2{
+  border-bottom: 1px double black;
+  margin-left: 11px;
+  margin-right: 12px;
+  margin-top: 14px;
+  margin-bottom: 35px;
+}
+
+.new-tweet form{
+  padding: 4px;
+  margin-left: 12px;
+}
+
+span.counter{
+  float: right;
+  margin-top: 27px;
+}
+
+.new-tweet form input{
+  margin-top: 21px;
+}
+
+/*.new-tweet from input:hover {
+  border: 1px solid #999;
+  border-radius: 5px;
+}*/
+
+.new-tweet form textarea{
+  width: 97%;
+}
+
+.new-tweet form textarea:focus{
+outline: none;
+box-shadow: 0px 0px 5px #61C5FA;
+border:1px solid #5AB0DB;
+}
+
+.new-tweet form textarea:hover{
+border: 1px solid #999;
+border-radius: 5px;
+}
+
+.new-tweet form textarea:focus:hover{
+outline: none;
+box-shadow: 0px 0px 5px #61C5FA;
+border:1px solid #5AB0DB;
+border-radius:0;
+}
