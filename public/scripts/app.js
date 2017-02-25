@@ -11,16 +11,18 @@
 
 function getTime(ms){
     let days = Math.floor(ms / (24*60*60*1000));
+    console.log("days",days);
     let daysms=ms % (24*60*60*1000);
     let hours = Math.floor((daysms)/(60*60*1000));
+    console.log("hours",hours);
     let hoursms=ms % (60*60*1000);
     let minutes = Math.floor((hoursms)/(60*1000));
+    console.log("Min",minutes);
     let minutesms=ms % (60*1000);
     let sec = Math.floor((minutesms)/(1000));
+    console.log("Sec",sec);
     if(!(days === 0)){
        return `${days} days ago`;
-    } else if(days > 365){
-        return "More than a year ago";
     } else if (!(hours === 0)){
        return `${hours} hours ago`;
     } else if(minutes === 1){
